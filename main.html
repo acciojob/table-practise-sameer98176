@@ -1,38 +1,62 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+    <style>
+        /* Table styling */
+        table {
+            background-color: yellow; /* Table background yellow */
+            border-collapse: collapse; /* Borders look clean */
+            width: 50%; /* Optional: table width */
+        }
 
+        /* Border for table, th, td */
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        /* Padding for cells */
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Caption styling */
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+        <tr>
+            <td>Shaw</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>21</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>Riya</td>
+            <td>19</td>
+            <td>ME</td>
+        </tr>
+    </table>
 
 </body>
-
-	<table : border = "1" style = "background-color : yellow;" >
-
-		<tr>
-		<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-			</tr>
-
-		<tr>
-			<td>shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-		</tr>
-
-		<tr>
-			<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-		
-	</table>
-
 </html>
